@@ -9,5 +9,7 @@ public class Main {
         );
         Refrigerator refrigerator = context.getBean("refrigerator", Refrigerator.class);
         refrigerator.showList();
+        
+        context.close();
     }
 }
