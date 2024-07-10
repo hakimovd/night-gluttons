@@ -1,43 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans  xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context
-        http://www.springframework.org/schema/context/spring-context.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans  xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--        http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--        http://www.springframework.org/schema/context-->
+<!--        http://www.springframework.org/schema/context/spring-context.xsd">-->
 
-    <bean id="milk"
-          class="com.hakimov.night.DairyProducts">
-        <property name="fatPercentage" value="3.2"/>
-    </bean>
-
-    <bean id="kefir"
-          class="com.hakimov.night.DairyProducts">
-        <property name="fatPercentage" value="2.5"/>
-    </bean>
-
-    <bean id="mango"
-          class="com.hakimov.night.PlantProducts">
-        <property name="namePlant" value="Mango"/>
-    </bean>
-
-    <bean id="potato"
-          class="com.hakimov.night.PlantProducts">
-        <property name="namePlant" value="Potato"/>
-    </bean>
-
-    <bean id="refrigerator"
-          class="com.hakimov.night.Refrigerator">
-        <property name="model">
-            <list>
-                <ref bean="milk"/>
-                <ref bean="kefir"/>
-                <ref bean="mango"/>
-                <ref bean="potato"/>
-            </list>
-        </property>
-    </bean>
+<!--    <context:component-scan base-package="com.hakimov.night" />-->
+<!--    <context:property-placeholder location="classpath:product.properties"/>-->
 
 
-</beans>
+<!--    <bean id="milk"-->
+<!--          class="com.hakimov.night.DairyProducts">-->
+<!--        <property name="fatPercentage" value="3.2"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="kefir"-->
+<!--          class="com.hakimov.night.DairyProducts">-->
+<!--        <property name="fatPercentage" value="2.5"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="mango"-->
+<!--          class="com.hakimov.night.PlantProducts">-->
+<!--        <property name="namePlant" value="Mango"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="potato"-->
+<!--          class="com.hakimov.night.PlantProducts">-->
+<!--        <property name="namePlant" value="Potato"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="refrigerator"-->
+<!--          class="com.hakimov.night.Refrigerator">-->
+<!--        <property name="model">-->
+<!--            <list>-->
+<!--                <ref bean="milk"/>-->
+<!--                <ref bean="kefir"/>-->
+<!--                <ref bean="mango"/>-->
+<!--                <ref bean="potato"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+<!--</beans>-->

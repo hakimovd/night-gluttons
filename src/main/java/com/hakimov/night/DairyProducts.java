@@ -1,9 +1,10 @@
 package com.hakimov.night;
 
 public class DairyProducts  extends Product {
+
     private String fatPercentage;
 
-    public void setFatPercentage (String fatPercentage) {
+    public DairyProducts(String fatPercentage) {
         this.fatPercentage = fatPercentage;
     }
 
